@@ -21,9 +21,9 @@ The module provides seperate methods for each institute:
 - `allensbach()`
 - `emnid()`
 - `forsa()`
-- `politbarometer()` *Forschungsgruppe Wahlen*
+- `politbarometer()` - *Forschungsgruppe Wahlen*
 - `gms()`
-- `dimap()` *Infratest Dimap*
+- `dimap()` - *Infratest Dimap*
 - `insa()`
 
 and a method that combines all polls:
