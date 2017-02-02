@@ -27,7 +27,7 @@ const identify = ($) => {
 	}
 	// normal institutes
 	if($.children().first().is('a')){
-		if($.children().first().text().toLowerCase() === 'cdu') return {type: 'party', name: 'cdu', modifier: partyModifier}
+		if($.children().first().text().toLowerCase() === 'cdu') return {type: 'party', name: 'union', modifier: partyModifier}
 		if($.children().first().text().toLowerCase() === 'spd') return {type: 'party', name: 'spd', modifier: partyModifier}
 		if($.children().first().text().toLowerCase() === 'grüne') return {type: 'party', name: 'grüne', modifier: partyModifier}
 		if($.children().first().text().toLowerCase() === 'fdp') return {type: 'party', name: 'fdp', modifier: partyModifier}
@@ -36,7 +36,7 @@ const identify = ($) => {
 		if($.children().first().text().toLowerCase() === 'sonstige') return {type: 'party', name: 'sonstige', modifier: partyModifier}
 	}
 	// politbarometer...
-	if($.text().toLowerCase() === 'cdu/csu') return {type: 'party', name: 'cdu', modifier: partyModifier}
+	if($.text().toLowerCase() === 'cdu/csu') return {type: 'party', name: 'union', modifier: partyModifier}
 	if($.text().toLowerCase() === 'spd') return {type: 'party', name: 'spd', modifier: partyModifier}
 	if($.text().toLowerCase() === 'grüne') return {type: 'party', name: 'grüne', modifier: partyModifier}
 	if($.text().toLowerCase() === 'fdp') return {type: 'party', name: 'fdp', modifier: partyModifier}

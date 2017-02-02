@@ -35,7 +35,7 @@ Each method returns a `promise` that resolves in an array of objects like this:
 {
 	date: '2017-01-27T00:00:00+01:00',
 	results: {
-		cdu: 0.36,
+		union: 0.36,
 		spd: 0.24,
 		'grüne': 0.08,
 		fdp: 0.06,
