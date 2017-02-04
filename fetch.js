@@ -69,6 +69,15 @@ const rows = ($) => {
 	return Array.from(rows)
 }
 
+const filterRows = (coloumns) => (rows) => {
+	const res = []
+	for(let row of rows){
+		const $ = parser(row)
+		if($.children().length>=coloumns.length) res.push(row)
+	}
+	return res
+}
+
 const id = (x) => x
 
 // format row
@@ -88,7 +97,10 @@ const main = (institute) => {
 	return request(url(institute))
 		.then((r) => r.body)
 		.then(parser.load)
-		.then(($) => rows($).map(format(coloumns($), institute)))
+		.then(($) => {
+			const cols = coloumns($)
+			return filterRows(cols)(rows($)).map(format(cols, institute))
+		})
 }
 
 module.exports = main
