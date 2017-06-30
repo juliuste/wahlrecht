@@ -9,12 +9,13 @@ const round = require('lodash.round')
 const url = (institute) => 'http://www.wahlrecht.de/umfragen/'+institute+'.htm'
 
 const removeDots = (x) => x.replace('.', '').replace(',', '.')
+const removeNonNumber = (x) => x.replace(/[^0-9.]/g, "")
 
 const dateModifier = (x) => moment(x, 'DD.MM.YYYY').format()
 const sampleSizeModifier = (x) => round(numeral(removeDots(x)).value(), 0)
 const periodModifier = (x) => x
 const undecidedModifier = (x) => round(numeral(removeDots(x)).value(), 0)
-const partyModifier = (x) => round(numeral(removeDots(x)).value(), 3)
+const partyModifier = (x) => round(numeral(removeNonNumber(removeDots(x))).value() / 100, 3)
 
 // identify coloumn titles
 const identify = ($) => {
@@ -50,7 +51,7 @@ const identify = ($) => {
 const coloumns = ($) => {
 	const fields = Array.from($('table.wilko thead tr').children())
 	const result = []
-	
+
 	let counter = -1
 	while(counter++ < fields.length){
 		const field = identify(fields[counter])
