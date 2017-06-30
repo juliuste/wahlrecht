@@ -7,6 +7,7 @@ Scrapes [wahlrecht.de](http://wahlrecht.de) for the latest public opinion polls 
 [![dependency status](https://img.shields.io/david/juliuste/wahlrecht.svg)](https://david-dm.org/juliuste/wahlrecht)
 [![dev dependency status](https://img.shields.io/david/dev/juliuste/wahlrecht.svg)](https://david-dm.org/juliuste/wahlrecht#info=devDependencies)
 [![license](https://img.shields.io/github/license/juliuste/wahlrecht.svg?style=flat)](LICENSE)
+[![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
 
 ## Installation
 
