@@ -1,7 +1,7 @@
 {
   "name": "wahlrecht",
   "description": "Scrapes wahlrecht.de for the latest public opinion polls on the german general election (Bundestagswahl).",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "keywords": [
     "wahlrecht",
     "wahlrecht.de",
