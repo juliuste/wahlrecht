@@ -61,7 +61,7 @@ wahlrecht.dimap().then(console.log)
 
 - [`sainte-lague`](https://github.com/juliuste/sainte-lague) - Sainte-Laguë seat distribution method
 - [`hare-niemeyer`](https://github.com/juliuste/hare-niemeyer) - Hare-Niemeyer seat distribution method
-- [`parliament-svg`](https://github.com/juliuste/hare-niemeyer/) - Parliament charts
+- [`parliament-svg`](https://github.com/juliuste/parliament-svg/) - Parliament charts
 
 ## Contributing
 
