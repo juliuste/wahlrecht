@@ -1,5 +1,7 @@
 # wahlrecht
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/wahlrecht.svg)](https://greenkeeper.io/)
+
 Scrapes [wahlrecht.de](http://wahlrecht.de) for the latest public opinion polls on the german general election (Bundestagswahl).
 
 [![npm version](https://img.shields.io/npm/v/wahlrecht.svg)](https://www.npmjs.com/package/wahlrecht)
