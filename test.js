@@ -4,7 +4,7 @@ const tape = require('tape')
 const round = require('lodash.round')
 const wahlrecht = require('./index')
 
-const instituteTest = (institute) => (test) => 
+const instituteTest = (institute) => (test) =>
 	wahlrecht[institute]().then((r) => {
 		test.plan(7)
 		test.notEqual(r.length, 0, 'result count')
