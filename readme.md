@@ -4,6 +4,7 @@ Scrapes [wahlrecht.de](http://wahlrecht.de) for the latest public opinion polls 
 
 [![npm version](https://img.shields.io/npm/v/wahlrecht.svg)](https://www.npmjs.com/package/wahlrecht)
 [![Build Status](https://travis-ci.org/juliuste/wahlrecht.svg?branch=master)](https://travis-ci.org/juliuste/wahlrecht)
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/wahlrecht.svg)](https://greenkeeper.io/)
 [![dependency status](https://img.shields.io/david/juliuste/wahlrecht.svg)](https://david-dm.org/juliuste/wahlrecht)
 [![dev dependency status](https://img.shields.io/david/dev/juliuste/wahlrecht.svg)](https://david-dm.org/juliuste/wahlrecht#info=devDependencies)
 [![license](https://img.shields.io/github/license/juliuste/wahlrecht.svg?style=flat)](LICENSE)
