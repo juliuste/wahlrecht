@@ -1,54 +1,54 @@
 {
-  "name": "wahlrecht",
-  "description": "Scrapes wahlrecht.de for the latest public opinion polls on the german general election (Bundestagswahl).",
-  "version": "1.0.0",
-  "keywords": [
-    "wahlrecht",
-    "wahlrecht.de",
-    "polls",
-    "election",
-    "germany",
-    "deutschland",
-    "bundestag",
-    "bundestagswahl",
-    "umfrage",
-    "infratest",
-    "dimap",
-    "insa",
-    "allensbach",
-    "emnid",
-    "politbarometer",
-    "forschungsgruppe",
-    "wahlen",
-    "gms",
-    "forsa"
-  ],
-  "author": "Julius Tens <mail@juliustens.eu>",
-  "homepage": "https://github.com/juliuste/wahlrecht",
-  "repository": "juliuste/wahlrecht",
-  "bugs": "https://github.com/juliuste/wahlrecht/issues",
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "fetch.js"
-  ],
-  "dependencies": {
-    "cheerio": "^0.22.0",
-    "got": "^8.0.0",
-    "lodash.round": "^4.0.4",
-    "lodash.union": "^4.6.0",
-    "moment": "^2.17.1",
-    "numeral": "^2.0.4"
-  },
-  "devDependencies": {
-    "tape": "^4.6.3"
-  },
-  "scripts": {
-    "test": "node test.js",
-    "prepare": "npm test"
-  },
-  "engines": {
-    "node": ">=6"
-  },
-  "license": "ISC"
+	"name": "wahlrecht",
+	"description": "Scrapes wahlrecht.de for the latest public opinion polls on the german general election (Bundestagswahl).",
+	"version": "1.0.0",
+	"keywords": [
+		"wahlrecht",
+		"wahlrecht.de",
+		"polls",
+		"election",
+		"germany",
+		"deutschland",
+		"bundestag",
+		"bundestagswahl",
+		"umfrage",
+		"infratest",
+		"dimap",
+		"insa",
+		"allensbach",
+		"emnid",
+		"politbarometer",
+		"forschungsgruppe",
+		"wahlen",
+		"gms",
+		"forsa"
+	],
+	"author": "Julius Tens <mail@juliustens.eu>",
+	"homepage": "https://github.com/juliuste/wahlrecht",
+	"repository": "juliuste/wahlrecht",
+	"bugs": "https://github.com/juliuste/wahlrecht/issues",
+	"main": "./index.js",
+	"files": [
+		"index.js",
+		"fetch.js"
+	],
+	"dependencies": {
+		"cheerio": "^0.22.0",
+		"got": "^8.0.0",
+		"lodash.round": "^4.0.4",
+		"lodash.union": "^4.6.0",
+		"moment": "^2.17.1",
+		"numeral": "^2.0.4"
+	},
+	"devDependencies": {
+		"tape": "^4.9.1"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"prepublishOnly": "npm test"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"license": "ISC"
 }
