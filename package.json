@@ -33,12 +33,12 @@
 		"fetch.js"
 	],
 	"dependencies": {
-		"cheerio": "^0.22.0",
-		"got": "^8.0.0",
+		"cheerio": "^1.0.0-rc.2",
+		"got": "^9.2.2",
 		"lodash.round": "^4.0.4",
 		"lodash.union": "^4.6.0",
-		"moment": "^2.17.1",
-		"numeral": "^2.0.4"
+		"moment": "^2.22.2",
+		"numeral": "^2.0.6"
 	},
 	"devDependencies": {
 		"tape": "^4.9.1"
