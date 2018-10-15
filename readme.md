@@ -6,8 +6,7 @@ Scrapes [wahlrecht.de](http://wahlrecht.de) for the latest public opinion polls 
 [![Build Status](https://travis-ci.org/juliuste/wahlrecht.svg?branch=master)](https://travis-ci.org/juliuste/wahlrecht)
 [![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/wahlrecht.svg)](https://greenkeeper.io/)
 [![dependency status](https://img.shields.io/david/juliuste/wahlrecht.svg)](https://david-dm.org/juliuste/wahlrecht)
-[![dev dependency status](https://img.shields.io/david/dev/juliuste/wahlrecht.svg)](https://david-dm.org/juliuste/wahlrecht#info=devDependencies)
-[![license](https://img.shields.io/github/license/juliuste/wahlrecht.svg?style=flat)](LICENSE)
+[![license](https://img.shields.io/github/license/juliuste/wahlrecht.svg?style=flat)](license)
 [![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
 
 ## Installation
@@ -67,4 +66,4 @@ wahlrecht.dimap().then(console.log)
 
 ## Contributing
 
-If you found a bug, want to propose a feature or feel the urge to complain about your life, feel free to visit [the issues page](https://github.com/juliuste/wahlrecht/issues).
+If you found a bug or want to propose a feature, feel free to visit [the issues page](https://github.com/juliuste/wahlrecht/issues).
